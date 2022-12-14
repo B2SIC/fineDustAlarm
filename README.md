@@ -6,6 +6,14 @@
 * 활용 API: Telegram, 한국환경공단_에어코리아_대기오염정보
 * 운영환경: AWS Lambda (예정)
 
+## Required
+* Telegram
+  * token
+  * chat_id -> Telegram 채팅 ID
+* 공공데이터포탈 (한국환경공단_에어코리아_대기오염정보)
+  * serviceKey
+  * stationName -> 측정소 이름
+
 ## 알람 정보
 ### 예시
 ![image](https://user-images.githubusercontent.com/28584171/207598634-456b34e9-1eea-42b1-a193-921c37dccdbb.png)
